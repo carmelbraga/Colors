@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		1E64481A22307FAA00329549 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E64481922307FAA00329549 /* AppDelegate.swift */; };
-		1E64481C22307FAA00329549 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E64481B22307FAA00329549 /* ViewController.swift */; };
 		1E64481F22307FAA00329549 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E64481D22307FAA00329549 /* Main.storyboard */; };
 		1E64482122307FAB00329549 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E64482022307FAB00329549 /* Assets.xcassets */; };
 		1E64482422307FAB00329549 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E64482222307FAB00329549 /* LaunchScreen.storyboard */; };
 		1E64482F22307FAC00329549 /* ColorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E64482E22307FAC00329549 /* ColorsTests.swift */; };
 		1E64483A22307FAC00329549 /* ColorsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E64483922307FAC00329549 /* ColorsUITests.swift */; };
+		1E6448482230805600329549 /* ColorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6448472230805600329549 /* ColorsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		1E64481622307FA900329549 /* Colors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Colors.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E64481922307FAA00329549 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1E64481B22307FAA00329549 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1E64481E22307FAA00329549 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1E64482022307FAB00329549 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1E64482322307FAB00329549 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		1E64483522307FAC00329549 /* ColorsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E64483922307FAC00329549 /* ColorsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsUITests.swift; sourceTree = "<group>"; };
 		1E64483B22307FAC00329549 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E6448472230805600329549 /* ColorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +98,11 @@
 			isa = PBXGroup;
 			children = (
 				1E64481922307FAA00329549 /* AppDelegate.swift */,
-				1E64481B22307FAA00329549 /* ViewController.swift */,
 				1E64481D22307FAA00329549 /* Main.storyboard */,
 				1E64482022307FAB00329549 /* Assets.xcassets */,
 				1E64482222307FAB00329549 /* LaunchScreen.storyboard */,
 				1E64482522307FAB00329549 /* Info.plist */,
+				1E6448472230805600329549 /* ColorsViewController.swift */,
 			);
 			path = Colors;
 			sourceTree = "<group>";
@@ -256,7 +256,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E64481C22307FAA00329549 /* ViewController.swift in Sources */,
+				1E6448482230805600329549 /* ColorsViewController.swift in Sources */,
 				1E64481A22307FAA00329549 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
